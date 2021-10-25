@@ -31,4 +31,11 @@ body {
   img {
     height:60px;
   }
-  
+  .texto{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    font-size: 15px;
+    margin: 50px;
+
+
+  }
