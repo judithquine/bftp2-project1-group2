@@ -13,7 +13,7 @@ body {
     float: right;
     color: #f2f2f2;
     text-align: center;
-    margin:0%;
+    margin:20mpx;
     text-decoration: none;
     font-size: 17px; 
   }
@@ -27,5 +27,8 @@ body {
     background-color: #333;
     color: white;
     float: left;
-    height: 100%;
   }
+  img {
+    height:60px;
+  }
+  
