@@ -12,13 +12,13 @@ body {
   .sectionLinks{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: right;
   }
   .topnav a {
     float: right;
     color: #f2f2f2;
     text-align: center;
-    margin:20mpx;
+    margin: 20px;
     text-decoration: none;
     font-size: 17px; 
   }
