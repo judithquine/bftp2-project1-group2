@@ -41,7 +41,7 @@ body {
   .flex-container {
     display: flex;
     flex-wrap: nowrap;
-    background-color: DodgerBlue;
+    background-color: none;
   }
   
   .flex-container > div {
