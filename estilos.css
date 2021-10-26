@@ -12,13 +12,17 @@ body {
   .sectionLinks{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: right;
   }
   .topnav a {
     float: right;
     color: #f2f2f2;
     text-align: center;
+<<<<<<< HEAD
+    margin:20px;
+=======
     margin: 20px;
+>>>>>>> 9513737a43cdb6d3f0d7793aa2120c7b4145a56b
     text-decoration: none;
     font-size: 17px; 
   }
@@ -58,34 +62,23 @@ body {
     font-size: 30px;
   }
 
-  body {
-    background-color: #00bfff;
-  }
-  
-  .card {
-    text-align: center;
-    background-color: white;
-    width: 40%;
-    height: 50vw;
+  img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+ }
+ .nombre{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 30px;
+ }
+ .logo{
+    width: 30px;
+    height: 30px;
+    padding: 30px 40px;
+    margin-bottom: 20px;
+ }
+ .flex-container{
     display: flex;
-    margin: 0 auto;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .google-btn {
-    width: 500px;
-    display: flex;
-  }
-  
-  .google-btn img {
-    width: 50px;
-  }
-  
-  .btn-text {
-    vertical-align: text-top;
-  }
-  
-  .email-login {
-  }
-  
+    padding: 50px;
+    flex-direction: row;
+ }
