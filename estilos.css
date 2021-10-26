@@ -34,6 +34,7 @@ body {
     background-color:rgb(92, 92, 92);
     color: white;
     float: left;
+    height: 60px;
   }
   img {
     height:60px;
