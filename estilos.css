@@ -34,6 +34,7 @@ body {
     background-color:rgb(92, 92, 92);
     color: white;
     float: left;
+    height: 60px;
   }
   img {
     height:60px;
@@ -45,13 +46,23 @@ body {
     margin: 50px;
   }
   
+.main {
+display: flex;
+flex-direction: column;
+
+}
   .flex-container {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     background-color: none;
+    align-items: center;
+    padding: 20px;
+    justify-content:left;
+
+
   }
   
-  .flex-container > div {
+  /*.flex-container > div {
     background-color: #f1f1f1;
     width: 100px;
     margin: 10px;
@@ -59,7 +70,7 @@ body {
     line-height: 75px;
     font-size: 30px;
   }
-
+*/
   img{
     width: 250px;
     height: 250px;
