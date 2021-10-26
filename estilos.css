@@ -58,3 +58,34 @@ body {
     font-size: 30px;
   }
 
+  body {
+    background-color: #00bfff;
+  }
+  
+  .card {
+    text-align: center;
+    background-color: white;
+    width: 40%;
+    height: 50vw;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .google-btn {
+    width: 500px;
+    display: flex;
+  }
+  
+  .google-btn img {
+    width: 50px;
+  }
+  
+  .btn-text {
+    vertical-align: text-top;
+  }
+  
+  .email-login {
+  }
+  
