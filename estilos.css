@@ -32,6 +32,7 @@ body {
     background-color: #333;
     color: white;
     float: left;
+    height: 60px;
   }
   img {
     height:60px;
