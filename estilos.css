@@ -18,7 +18,11 @@ body {
     float: right;
     color: #f2f2f2;
     text-align: center;
+<<<<<<< HEAD
     margin:20px;
+=======
+    margin: 20px;
+>>>>>>> 9513737a43cdb6d3f0d7793aa2120c7b4145a56b
     text-decoration: none;
     font-size: 17px; 
   }
@@ -50,6 +54,31 @@ body {
   }
   
   .flex-container > div {
-    background-color:;
-    
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
   }
+
+  img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+ }
+ .nombre{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 30px;
+ }
+ .logo{
+    width: 30px;
+    height: 30px;
+    padding: 30px 40px;
+    margin-bottom: 20px;
+ }
+ .flex-container{
+    display: flex;
+    padding: 50px;
+    flex-direction: row;
+ }
