@@ -54,21 +54,11 @@ flex-direction: row;
     flex-wrap: wrap;
     background-color: none;
     align-items: center;
-    padding: 20px;
-    justify-content:left;
-
-
+    padding: 30px;
+    justify-content:space-between;
+    flex-direction: row;
   }
   
-  /*.flex-container > div {
-    background-color: #f1f1f1;
-    width: 100px;
-    margin: 10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
-  }
-*/
   img{
     width: 250px;
     height: 250px;
@@ -84,8 +74,4 @@ flex-direction: row;
     padding: 30px 40px;
     margin-bottom: 20px;
  }
- .flex-container{
-    display: flex;
-    padding: 50px;
-    flex-direction: row;
- }
+
