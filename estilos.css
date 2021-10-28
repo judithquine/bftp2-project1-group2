@@ -61,7 +61,7 @@ flex-direction: row;
 
   }
   
-   img{
+   .foto-perfil{
     width: 250px;
     height: 250px;
     border-radius: 50%;
