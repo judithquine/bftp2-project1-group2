@@ -21,7 +21,7 @@ body {
     float: right;
     color: #f2f2f2;
     text-align: center;
-    margin: 10px;
+    margin: 20px;  
     text-decoration: none;
     font-size: 17px; 
   }
@@ -45,9 +45,9 @@ body {
     margin: 50px;
   }
   
-  .main {
-  display: flex;
-  flex-direction: row;
+.main {
+display: flex;
+flex-direction: row;
 
   }
   .flex-container {
