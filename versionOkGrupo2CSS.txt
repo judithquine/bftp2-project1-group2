@@ -7,7 +7,6 @@ body {
   .topnav {
     overflow: hidden;
     background-color: rgb(92, 92, 92);
-    width: 100%;
   }
   .active img {
     height: 100%;
@@ -21,7 +20,7 @@ body {
     float: right;
     color: #f2f2f2;
     text-align: center;
-    margin: 20px;  
+    margin: 10px;
     text-decoration: none;
     font-size: 17px; 
   }
@@ -45,9 +44,9 @@ body {
     margin: 50px;
   }
   
-.main {
-display: flex;
-flex-direction: row;
+  .main {
+  display: flex;
+  flex-direction: row;
 
   }
   .flex-container {
@@ -55,13 +54,13 @@ flex-direction: row;
     flex-wrap: wrap;
     background-color: none;
     align-items: center;
-    padding: 60px;
-    justify-content: space-evenly;
+    padding: 20px;
+    justify-content: space-between;
     flex-direction: row;
 
   }
   
-   .foto-perfil{
+   .img{
     width: 250px;
     height: 250px;
     border-radius: 50%;
@@ -76,4 +75,3 @@ flex-direction: row;
     padding: 30px 40px;
     margin-bottom: 20px;
  }
- 
