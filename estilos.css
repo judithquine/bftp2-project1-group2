@@ -9,8 +9,17 @@ body {
   background-color: rgb(92, 92, 92);
   width: 100%;
 }
+.botones {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
 .active img {
   height: 100%;
+  align-items: center;
 }
 .sectionLinks{
   display: flex;
