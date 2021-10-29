@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(249, 251, 252);
+}
+
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    
+h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    }
+
+h2{
+    font-size: 20px;
+
+}    
+
+.foto{
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.foto img {
+
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    }
+
+.texto{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:14px;
+    text-align: left;
+    margin: 50px;
+    
+}
+
+
+.contacto{
+align-items: flex-end;
+border-radius: 50px;
+
+}
