@@ -84,3 +84,11 @@ body {
     padding: 30px 40px;
     margin-bottom: 20px;
   }
+  .logosCliente{
+      display: flex;
+      position: relative;
+      padding: 50px;
+      size-adjust: 90px;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
