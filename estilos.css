@@ -8,18 +8,19 @@ body {
   overflow: hidden;
   background-color: rgb(92, 92, 92);
   width: 100%;
+  line-height: center;
 }
 .botones {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   flex-wrap: wrap;
-  align-content: center;
 }
 
 .active img {
   height: 100%;
   align-items: center;
+  line-height: center;
 }
 .sectionLinks{
   display: flex;
