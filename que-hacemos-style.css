@@ -1,45 +1,81 @@
-.topnav {
-    overflow: hidden;
-    background-color: rgb(92, 92, 92);
-    width: 100%;
-  }
-  .botones {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-    align-content: center;
-  }
-  
-  .active img {
-    height: 100%;
-    align-items: center;
-}
-.sectionLinks{
-        display: flex;
-        justify-content: center;
-        align-items: right;
-      }
-.topnav a {
-        float: right;
-        color: #f2f2f2;
-        text-align: center;
-        margin: 20px;  
-        text-decoration: none;
-        font-size: 17px; 
-      }
-      
-      .topnav a:hover {
-        background-color: #ddd;
-        color: black;
-      }
-      
-      .topnav a.active {
-        background-color:rgb(92, 92, 92);
-        color: white;
-        float: left;
-        height: 60px;
-      }
 
-      .logosCliente {
-        size-adjust: 50%;
+          
+          .topnav {
+            overflow: hidden;
+            background-color: rgb(92, 92, 92);
+            width: 100%;
+            font-family: Arial, Helvetica, sans-serif;
+          }
+          .botones {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            flex-wrap: wrap;
+            align-content: center;
+          }
+          .active img {
+            height: 100%;
+            align-items: center;
+          }
+          .sectionLinks{
+            display: flex;
+            justify-content: center;
+            align-items: right;
+          }
+          .topnav a {
+            float: right;
+            color: #f2f2f2;
+            text-align: center;
+            margin: 20px;  
+            text-decoration: none;
+            font-size: 17px; 
+          }
+          .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+          }
+          .topnav a.active {
+            background-color:rgb(92, 92, 92);
+            color: white;
+            float: left;
+            height: 60px;
+          }
+          .texto{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: justify;
+            font-size: 15px;
+            margin: 50px;
+          }
+          
+          .main {
+          display: flex;
+          flex-wrap: wrap;
+          
+          }
+          .flex-container {
+            display: flex;
+            background-color: none;
+            align-items: center;
+            padding: 60px;
+            justify-content: space-evenly;
+            flex-direction: column;
+          
+          }
+          
+          .nombre{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: 30px;
+          }
+          .logo{
+            width: 30px;
+            height: 30px;
+            padding: 30px 40px;
+            margin-bottom: 20px;
+          }
+          
+        
+              .logosCliente {
+                size-adjust: 70 px;
+               
+                  }
+          
